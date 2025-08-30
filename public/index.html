@@ -3,10 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Visit Belo Horizonte</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <header class="main-header">
+        <div class="logo">
+            <h1>Visit BH</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Atrações</a></li>
+                <li><a href="#">Gastronomia</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Viva Belo Horizonte</h2>
+                <p>A capital dos bares e da cultura, com o tempero de Minas.</p>
+            </div>
+        </section>
+
+        <section class="destaques">
+            <h2>O que fazer em BH</h2>
+            <div class="articles-container">
+                <article class="attraction-card">
+                    <img src="images/papa.jpg" alt="Praça do Papa">
+                    <h3>Praça do Papa</h3>
+                    <p>Uma vista deslumbrante da cidade e das montanhas, perfeita para um pôr do sol no final de tarde.</p>
+                </article>
+                <article class="attraction-card">
+                    <img src="images/mercado.jpg" alt="Mercado Central">
+                    <h3>Mercado Central</h3>
+                    <p>Sabores e tradição em um dos pontos mais animados da cidade, com queijos, cachaças e artesanato.</p>
+                </article>
+                <article class="attraction-card">
+                     <img src="images/lp.jpg" alt="Lagoa da Pampulha">
+                    <h3>Lagoa da Pampulha</h3>
+                    <p>Obras de Oscar Niemeyer e um belo cartão-postal, ideal para caminhadas e passeios de bicicleta.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Planeje sua Viagem</h2>
+            <form class="subscribe-form">
+                <label for="city">Onde você quer ir?</label>
+                <input type="text" id="city" name="city" placeholder="Ex: Serra do Curral">
+                
+                <label for="date">Quando?</label>
+                <input type="date" id="date" name="date">
+
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Visit Belo Horizonte</p>
+        </div>
+    </footer>
+
 </body>
 </html>

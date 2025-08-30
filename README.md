@@ -10,17 +10,18 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Izabela Ribeiro Camara
+- Matricula:737464
+- Proposta de projeto escolhida:Lugares e Experiencias
+- Breve descrição sobre seu projeto: Este projeto consiste na criação de uma página web principal para o portal de turismo "Visit Belo Horizonte". O site serve como um guia digital que destaca as principais atrações da cidade, como a Praça do Papa, o Mercado Central e a Lagoa da Pampulha, com imagens locais.
 
 
 ## Print do(s) wireframe(s) criado
 
 <<  COLOQUE A IMAGEM AQUI >>
-
+![Print do wireframe](public/images/previa.png)
 
 ## Print da home-page criada
 
 <<  COLOQUE A IMAGEM AQUI >>
+![Print home-page](public/images/site.png)
